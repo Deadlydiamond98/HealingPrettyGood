@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "healpgood:block/polished_heart_crystal",
+    "side": "healpgood:block/polished_heart_crystal",
+    "top": "healpgood:block/polished_heart_crystal"
+  }
+}

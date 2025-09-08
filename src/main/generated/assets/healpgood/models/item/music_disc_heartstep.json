@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "healpgood:item/music_disc_heartstep"
+  }
+}

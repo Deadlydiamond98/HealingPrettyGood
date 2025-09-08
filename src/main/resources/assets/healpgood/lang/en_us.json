@@ -1,0 +1,19 @@
+{
+  "healpgood.main.config.category": "Healing Pretty Good",
+  "itemgroup.healpgood": "Healing Pretty Good",
+
+  "item.healpgood.music_disc_heartstep": "Music Disc",
+  "item.healpgood.music_disc_heartstep.desc": "Sossalmon - Heartstep",
+  "item.healpgood.heart_crystal_shard": "Heart Crystal Shard",
+  "item.healpgood.crystal_heart": "Crystal Heart",
+  "item.healpgood.heart_container": "Heart Container",
+  "item.healpgood.empty_heart_container": "Empty Heart Container",
+
+  "block.healpgood.heart_crystal_block": "Heart Crystal Block",
+  "block.healpgood.polished_heart_crystal": "Polished Heart Crystal",
+  "block.healpgood.polished_heart_crystal_slab": "Polished Heart Crystal Slab",
+  "block.healpgood.polished_heart_crystal_stairs": "Polished Heart Crystal Stairs",
+  "block.healpgood.heart_crystal_bricks": "Heart Crystal Bricks",
+  "block.healpgood.heart_crystal_brick_slab": "Heart Crystal Brick Slab",
+  "block.healpgood.heart_crystal_brick_stairs": "Heart Crystal Brick Stairs"
+}

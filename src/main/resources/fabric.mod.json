@@ -2,21 +2,24 @@
 	"schemaVersion": 1,
 	"id": "healpgood",
 	"version": "${version}",
-	"name": "HealingPrettyGood",
+	"name": "Healing Pretty Good",
 	"description": "Assortment of things relating to healing and hearts, primarily revolving around Heart Crystals",
 	"authors": [
 		"Deadlydiamond98"
 	],
 	"contact": {
 		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/healing-pretty-good",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Deadlydiamond98/HealingPrettyGood"
 	},
-	"license": "CC0-1.0",
+	"license": "Custom",
 	"icon": "assets/healpgood/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.deadlydiamond98.HealingPrettyGood"
+		],
+		"client": [
+			"net.deadlydiamond98.HealPGoodClient"
 		],
 		"fabric-datagen": [
 			"net.deadlydiamond98.HealPGoodDataGen"

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "healpgood:block/heart_crystal_bricks",
+    "side": "healpgood:block/heart_crystal_bricks",
+    "top": "healpgood:block/heart_crystal_bricks"
+  }
+}

@@ -10,23 +10,15 @@ base {
 	archivesName = project.archives_base_name
 }
 
+fabricApi {
+	configureDataGeneration()
+}
+
 repositories {
 	maven {
 		url = "https://api.modrinth.com/maven"
 	}
 }
-
-//loom {
-//    splitEnvironmentSourceSets()
-//
-//	mods {
-//		"modid" {
-//			sourceSet sourceSets.main
-//			sourceSet sourceSets.client
-//		}
-//	}
-//
-//}
 
 dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"

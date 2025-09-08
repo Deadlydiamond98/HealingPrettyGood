@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "healpgood:block/polished_heart_crystal"
+  }
+}
