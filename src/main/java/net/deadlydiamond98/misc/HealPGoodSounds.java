@@ -7,6 +7,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
 public class HealPGoodSounds {
+    public static final SoundEvent HEART_PICKUP = registerSound("entity.heart.pickup");
     public static final SoundEvent MUSIC_DISC_HEARTSTEP = registerSound("music_disc.heartstep");
 
     private static SoundEvent registerSound(String name) {

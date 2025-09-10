@@ -16,6 +16,7 @@ public class HealPGoodItems {
     public static final Item CRYSTAL_HEART = register("crystal_heart", new Item(new FabricItemSettings()));
     public static final Item HEART_CONTAINER = register("heart_container", new Item(new FabricItemSettings()));
     public static final Item EMPTY_HEART_CONTAINER = register("empty_heart_container", new Item(new FabricItemSettings()));
+    public static final Item HEART_BOTTLE = register("heart_bottle", new HeartBottleItem(new FabricItemSettings()));
 
     public static final Item MUSIC_DISC_HEARTSTEP = register("music_disc_heartstep", new MusicDiscItem(
             10, HealPGoodSounds.MUSIC_DISC_HEARTSTEP, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 120

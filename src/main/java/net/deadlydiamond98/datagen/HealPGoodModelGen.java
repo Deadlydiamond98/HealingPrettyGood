@@ -28,7 +28,8 @@ public class HealPGoodModelGen extends FabricModelProvider {
                 HealPGoodItems.HEART_CRYSTAL_SHARD,
                 HealPGoodItems.CRYSTAL_HEART,
                 HealPGoodItems.HEART_CONTAINER,
-                HealPGoodItems.EMPTY_HEART_CONTAINER
+                HealPGoodItems.EMPTY_HEART_CONTAINER,
+                HealPGoodItems.HEART_BOTTLE
         );
     }
 }

@@ -1,7 +1,7 @@
 package net.deadlydiamond98;
 
 import net.deadlydiamond98.blocks.HealPGoodBlocks;
-import net.deadlydiamond98.config.HealPGoodConfig;
+import net.deadlydiamond98.misc.HealPGoodConfig;
 import net.deadlydiamond98.entities.HealPGoodEntities;
 import net.deadlydiamond98.items.HealPGoodItems;
 import net.deadlydiamond98.koalalib.ToggleableContent;
@@ -30,5 +30,20 @@ public class HealingPrettyGood implements ModInitializer {
 
 		LOGGER.info("Healing Pretty Good is fully initialized");
 
+//		testHeartShape(3);
 	}
+
+//	private void testHeartShape(int size) {
+//		for (int y = -size; y <= 2 * size; y++) {
+//			for (int x = -2 * size; x <= 2 * size; x++)
+//				if ((y <= 0 &&
+//						((int) Math.sqrt((x+size)*(x+size) + y*y) <= size
+//								|| (int) Math.sqrt((x-size)*(x-size) + y*y) <= size))
+//						|| (y > 0 && Math.abs(x) <= 2 * size - y))
+//					System.out.print("♥ ");
+//				else
+//					System.out.print("♡ ");
+//			System.out.println();
+//		}
+//	}
 }

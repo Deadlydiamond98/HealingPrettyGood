@@ -24,6 +24,7 @@ public class HealPGoodTab {
                 entry.add(HealPGoodItems.CRYSTAL_HEART);
                 entry.add(HealPGoodItems.HEART_CONTAINER);
                 entry.add(HealPGoodItems.EMPTY_HEART_CONTAINER);
+                entry.add(HealPGoodItems.HEART_BOTTLE);
                 entry.add(HealPGoodItems.MUSIC_DISC_HEARTSTEP);
 
                 // Blocks

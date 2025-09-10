@@ -3,5 +3,10 @@
     "sounds": [
       "healpgood:music/heartstep"
     ]
+  },
+  "entity.heart.pickup": {
+    "sounds": [
+      "healpgood:heart/pickup"
+    ]
   }
 }
