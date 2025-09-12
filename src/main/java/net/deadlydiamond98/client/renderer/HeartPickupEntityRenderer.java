@@ -3,6 +3,7 @@ package net.deadlydiamond98.client.renderer;
 import net.deadlydiamond98.HealingPrettyGood;
 import net.deadlydiamond98.entities.HeartPickupEntity;
 import net.deadlydiamond98.misc.HealPGoodConfig;
+import net.deadlydiamond98.util.SeasonalHeart;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.*;
 import net.minecraft.client.render.entity.EntityRenderer;
@@ -25,21 +26,21 @@ public class HeartPickupEntityRenderer extends EntityRenderer<HeartPickupEntity>
     private static int frame = 0;
     private static int frontAlpha = 0;
 
-    private static boolean isChristmas = false;
-    private static boolean isPride = false;
-    private static boolean isFunny = false;
+    private static boolean isJune;
+    private static boolean isChristmas;
+    public static boolean isApril;
 
     public HeartPickupEntityRenderer(EntityRendererFactory.Context ctx) {
         super(ctx);
         this.shadowRadius = 0.15f;
         this.shadowOpacity = 0.75f;
 
-        if (HealPGoodConfig.Main.seasonalHearts) {
-            LocalDate date = LocalDate.now();
-            isFunny = date.getMonth() == Month.APRIL && date.getDayOfMonth() == 1;
-            isChristmas = date.getMonth() == Month.DECEMBER;
-            isPride = date.getMonth() == Month.JUNE;
-        }
+        SeasonalHeart season = HealPGoodConfig.Main.seasonalHearts;
+        LocalDate date = LocalDate.now();
+
+        this.isApril = date.getMonth() == Month.APRIL && date.getDayOfMonth() == 1 && season.canChange();
+        this.isJune = date.getMonth() == Month.JUNE && season.canChange();
+        this.isChristmas = date.getMonth() == Month.DECEMBER && season.canChange();
     }
 
     @Override
@@ -110,19 +111,27 @@ public class HeartPickupEntityRenderer extends EntityRenderer<HeartPickupEntity>
     }
 
     private int getFrames() {
-        return isPride ? 20 : 2;
+        SeasonalHeart season = HealPGoodConfig.Main.seasonalHearts;
+        if (season.canChange()) {
+            return isJune ? 20 : season.frames;
+        }
+
+        return season.frames;
     }
 
     @Override
     public Identifier getTexture(HeartPickupEntity entity) {
-        if (isFunny) {
-            return getTexture("april");
-        } else if (isPride) {
-            return getTexture("pride");
-        } else if (isChristmas) {
-            return getTexture("christmas");
+        SeasonalHeart season = HealPGoodConfig.Main.seasonalHearts;
+        if (season.canChange()) {
+            if (isApril) {
+                return getTexture("april");
+            } else if (isJune) {
+                return getTexture("pride");
+            } else if (isChristmas) {
+                return getTexture("christmas");
+            }
         }
-        return getTexture("regular");
+        return getTexture(season.texture);
     }
 
     private Identifier getTexture(String name) {

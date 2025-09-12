@@ -1,0 +1,24 @@
+{
+  "item.healpgood.heart_bottle": "Lahvička uzdravení",
+  "block.healpgood.heart_crystal_block": "Blok srdcového krystalu",
+  "item.healpgood.heart_crystal_shard": "Střep srdcového krystalu",
+  "item.healpgood.crystal_heart": "Srdcový krystal",
+  "item.healpgood.heart_container": "Nádoba na srdce",
+  "item.healpgood.empty_heart_container": "Prázdná nádoba na srdce",
+  "block.healpgood.heart_lantern": "Lucerna ze srdcového krystalu",
+  "block.healpgood.polished_heart_crystal": "Leštěný srdcový krystal",
+  "block.healpgood.polished_heart_crystal_slab": "Půlblok z leštěného srdcového krystalu",
+  "block.healpgood.polished_heart_crystal_stairs": "Schody z leštěného srdcového krystalu",
+  "item.healpgood.crystal_apple": "Krystalové jablko",
+
+  "advancements.healpgood.crystal_heart_use": "Odemčena strana srdcí",
+  "advancements.healpgood.crystal_heart_use.desc": "Vylepšete své zdraví srdcovím krystalem, i když dočasně",
+  "advancements.healpgood.heart_crystal_break": "Zlomené srdce",
+  "advancements.healpgood.heart_crystal_break.desc": "Rozbij nějaký srdcový krystal",
+  "advancements.healpgood.empty_heart_container_use": "Dárce srdcí",
+  "advancements.healpgood.empty_heart_container_use.desc": "Proměň jedno své srdce do nádoby na srdce",
+  "advancements.healpgood.max_health": "Na maximum",
+  "advancements.healpgood.max_health.desc": "Zkonzumuj maximální možný počet srdcí",
+  "advancements.healpgood.heart_container_use": "Požehnání phanes",
+  "advancements.healpgood.heart_container_use.desc": "Vylepší své zdraví trvale s nádobou na srdce"
+}

@@ -1,0 +1,24 @@
+{
+  "item.healpgood.heart_bottle": "Frasco con Corazones",
+  "block.healpgood.heart_crystal_block": "Bloque de Corazón de Cristal",
+  "item.healpgood.heart_crystal_shard": "Fragmento de Corazón de Cristal",
+  "item.healpgood.crystal_heart": "Corazón de Cristal",
+  "item.healpgood.heart_container": "Contenedor de Corazones",
+  "item.healpgood.empty_heart_container": "Contenedor de Corazones Vacio",
+  "block.healpgood.heart_lantern": "Linterna Corazón",
+  "block.healpgood.polished_heart_crystal": "Bloque de Corazón de Cristal Pulido",
+  "block.healpgood.polished_heart_crystal_slab": "Losa de Corazón de Cristal Pulido",
+  "block.healpgood.polished_heart_crystal_stairs": "Escalera de Corazón de Cristal Pulido",
+  "item.healpgood.crystal_apple": "Manzana de Cristal",
+
+  "advancements.healpgood.crystal_heart_use": "Heart-Side Unlocked",
+  "advancements.healpgood.crystal_heart_use.desc": "Mejora tu salud con un corazón de cristal",
+  "advancements.healpgood.heart_crystal_break": "Cuernudo",
+  "advancements.healpgood.heart_crystal_break.desc": "Destruye un Corazón de Cristal",
+  "advancements.healpgood.empty_heart_container_use": "Donador",
+  "advancements.healpgood.empty_heart_container_use.desc": "Convierte uno de tus Corazones en un Contenedor de Corazones",
+  "advancements.healpgood.max_health": "Dopado",
+  "advancements.healpgood.max_health.desc": "Consume la Máxima cantidad de Corazones",
+  "advancements.healpgood.heart_container_use": "Bendición de Gaia",
+  "advancements.healpgood.heart_container_use.desc": "Mejora tu vida con un Contenedor de Corazones permanentemente"
+}

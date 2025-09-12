@@ -1,11 +1,12 @@
 package net.deadlydiamond98.misc;
 
 import net.deadlydiamond98.koalalib.config.CFGProperties;
+import net.deadlydiamond98.util.SeasonalHeart;
 
 public class HealPGoodConfig {
 
     public static class Main {
-        public static boolean seasonalHearts = true;
+        public static SeasonalHeart seasonalHearts = SeasonalHeart.VANILLA;
         public static boolean dragonDrops = true;
         public static double heartLanternX = 7.0;
         public static double heartLanternY = 3.5;

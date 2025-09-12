@@ -1,6 +1,6 @@
-// 1.20.1	2025-09-12T01:33:10.778600276	Healing Pretty Good/Block Loot Tables
-8e6e6a703294533acddea0caf1fb8c2f3822a581 data/healpgood/loot_tables/blocks/heart_crystal_bricks.json
+// 1.20.1	2025-09-12T01:48:40.382446558	Healing Pretty Good/Block Loot Tables
 68da575b4caa5a1cbbe93e49180ffd06372f5813 data/healpgood/loot_tables/blocks/heart_crystal_brick_stairs.json
+8e6e6a703294533acddea0caf1fb8c2f3822a581 data/healpgood/loot_tables/blocks/heart_crystal_bricks.json
 5a0fba5f73e9945188583262442a1ac1f6a7e06f data/healpgood/loot_tables/blocks/heart_crystal_brick_slab.json
 393404a1ed1caa2789c2aae78bfa0f0f28897034 data/healpgood/loot_tables/blocks/polished_heart_crystal_slab.json
 2669a891dbf7fa8275461e9090b71738055fa045 data/healpgood/loot_tables/blocks/heart_lantern.json

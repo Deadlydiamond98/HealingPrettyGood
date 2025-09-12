@@ -3,6 +3,7 @@ package net.deadlydiamond98.misc;
 import net.deadlydiamond98.HealingPrettyGood;
 import net.deadlydiamond98.blocks.HealPGoodBlocks;
 import net.deadlydiamond98.items.HealPGoodItems;
+import net.deadlydiamond98.koalalib.KoalaLib;
 import net.deadlydiamond98.koalalib.common.items.ModSharedItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -24,6 +25,11 @@ public class HealPGoodTab {
                 entry.add(HealPGoodItems.HEART_CRYSTAL_SHARD);
                 entry.add(HealPGoodItems.CRYSTAL_HEART);
                 entry.add(HealPGoodItems.HEART_CONTAINER);
+
+                if (KoalaLib.isModLoaded("zeldacraft")) {
+                    entry.add(HealPGoodItems.HEART_PIECE);
+                }
+
                 entry.add(HealPGoodItems.EMPTY_HEART_CONTAINER);
                 entry.add(HealPGoodItems.HEART_BOTTLE);
                 entry.add(HealPGoodItems.HEART_COOKIE);

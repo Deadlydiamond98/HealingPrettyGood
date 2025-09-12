@@ -1,0 +1,24 @@
+{
+  "item.healpgood.heart_bottle": "Can Şişesi",
+  "block.healpgood.heart_crystal_block": "Kalp Kristali Bloğu",
+  "item.healpgood.heart_crystal_shard": "Kalp Kristali Parçası",
+  "item.healpgood.crystal_heart": "Kalp Kristali",
+  "item.healpgood.heart_container": "Kalp Yükü",
+  "item.healpgood.empty_heart_container": "Boş Kalp Yükü",
+  "block.healpgood.heart_lantern": "Kalp Feneri",
+  "block.healpgood.polished_heart_crystal": "Cilalı Kalp Kristali",
+  "block.healpgood.polished_heart_crystal_slab": "Cilalı Kalp Kristali Basamağı",
+  "block.healpgood.polished_heart_crystal_stairs": "Cilalı Kalp Kristali Merdiven",
+  "item.healpgood.crystal_apple": "Kristal Elma",
+
+  "advancements.healpgood.crystal_heart_use": "Kiralık Kalp",
+  "advancements.healpgood.crystal_heart_use.desc": "Sağlığınızı geçici de olsa bir Kalp Kristali ile yükseltin",
+  "advancements.healpgood.heart_crystal_break": "Kalp Kırıcı",
+  "advancements.healpgood.heart_crystal_break.desc": "Biraz Kalp Kristali parçala",
+  "advancements.healpgood.empty_heart_container_use": "Kalp Donörü",
+  "advancements.healpgood.empty_heart_container_use.desc": "Kalplerinizden birini Kalp Yükü'ne dönüştürün",
+  "advancements.healpgood.max_health": "Limite Ulaş",
+  "advancements.healpgood.max_health.desc": "Mümkün olan maksimum miktarda Kalp tüketin",
+  "advancements.healpgood.heart_container_use": "Phanes'in Kutsaması",
+  "advancements.healpgood.heart_container_use.desc": "Canınızı bir Kalp Yükü ile kalıcı olarak yükseltin"
+}

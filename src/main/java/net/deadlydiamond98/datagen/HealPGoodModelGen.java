@@ -26,6 +26,7 @@ public class HealPGoodModelGen extends FabricModelProvider {
         ItemModelDatagenUtil.registerGenerated(itemModelGenerator,
                 HealPGoodItems.MUSIC_DISC_HEARTSTEP,
                 HealPGoodItems.HEART_CRYSTAL_SHARD,
+                HealPGoodItems.HEART_PIECE,
                 HealPGoodItems.HEART_CRYSTAL_SLIVER,
                 HealPGoodItems.CRYSTAL_HEART,
                 HealPGoodItems.HEART_CONTAINER,

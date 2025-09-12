@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "healpgood:heart_piece"
+    },
+    {
+      "item": "healpgood:heart_piece"
+    },
+    {
+      "item": "healpgood:heart_piece"
+    },
+    {
+      "item": "healpgood:heart_piece"
+    }
+  ],
+  "result": {
+    "item": "healpgood:heart_container"
+  }
+}

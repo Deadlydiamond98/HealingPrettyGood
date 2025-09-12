@@ -1,0 +1,25 @@
+{
+  "item.healpgood.heart_bottle": "Bottiglia di Guarigione",
+  "block.healpgood.heart_crystal_block": "Blocco di Cristallo del Cuore",
+  "item.healpgood.heart_crystal_shard": "Frammento di Cristallo del Cuore",
+  "item.healpgood.crystal_heart": "Cristallo del Cuore",
+  "item.healpgood.heart_container": "Contenitore del Cuore",
+  "item.healpgood.empty_heart_container": "Contenitore del Cuore Vuoto",
+  "block.healpgood.heart_lantern": "Lanterna del Cuore",
+  "block.healpgood.polished_heart_crystal": "Cristallo del Cuore Lucidato",
+  "block.healpgood.polished_heart_crystal_slab": "Lastra di Cristallo del Cuore Lucidato",
+  "block.healpgood.polished_heart_crystal_stairs": "Scale di Cristallo del Cuore Lucidato",
+  "item.healpgood.crystal_apple": "Mela di Cristallo",
+
+
+  "advancements.healpgood.crystal_heart_use": "Lato del Cuore Sbloccato",
+  "advancements.healpgood.crystal_heart_use.desc": "Aumenta la tua salute con un Cristallo del Cuore, seppur temporaneamente",
+  "advancements.healpgood.heart_crystal_break": "Spezzacuori",
+  "advancements.healpgood.heart_crystal_break.desc": "Frantuma alcuni Cristalli del Cuore",
+  "advancements.healpgood.empty_heart_container_use": "Donatore di Cuore",
+  "advancements.healpgood.empty_heart_container_use.desc": "Trasforma uno dei tuoi cuori in un contenitore del cuore",
+  "advancements.healpgood.max_health": "Massimizzato",
+  "advancements.healpgood.max_health.desc": "Consuma la quantità massima possibile di cuori",
+  "advancements.healpgood.heart_container_use": "Benedizione di Phanes",
+  "advancements.healpgood.heart_container_use.desc": "Aumenta la tua salute con un Contenitore del Cuore, permanentemente"
+}

@@ -28,6 +28,7 @@ public class HealPGoodItems {
 
     public static final Item HEART_CRYSTAL_SLIVER = register("heart_crystal_sliver", new Item(new FabricItemSettings()));
     public static final Item HEART_CRYSTAL_SHARD = register("heart_crystal_shard", new Item(new FabricItemSettings()));
+    public static final Item HEART_PIECE = register("heart_piece", new Item(new FabricItemSettings()));
 
     public static final Item HEART_BOTTLE = register("heart_bottle", new HeartBottleItem(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
     public static final Item HEART_COOKIE = register("heart_cookie", new HealingFood(new FabricItemSettings().food(FoodComponents.COOKIE), 1));

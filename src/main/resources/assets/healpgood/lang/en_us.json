@@ -7,6 +7,7 @@
   "item.healpgood.heart_crystal_shard": "Heart Crystal Shard",
   "item.healpgood.crystal_heart": "Crystal Heart",
   "item.healpgood.heart_container": "Heart Container",
+  "item.healpgood.heart_piece": "Heart Piece",
   "item.healpgood.empty_heart_container": "Empty Heart Container",
   "item.healpgood.heart_bottle": "Bottle O' Healing",
   "item.healpgood.heart_cookie": "Heart Cookie",
@@ -38,11 +39,19 @@
 
   "death.attack.empty_heart_container": "%s Didn't have enough hearts to spare",
 
+  "healpgood.main.config.seasonalHearts": "Heart Look",
+  "healpgood.main.enum.seasonalHearts.VANILLA": "Dynamic",
+  "healpgood.main.enum.seasonalHearts.NOSEASON": "Default",
+  "healpgood.main.enum.seasonalHearts.CHRISTMAS": "Christmas",
+  "healpgood.main.enum.seasonalHearts.PRIDE": "Pride Month",
+  "healpgood.main.enum.seasonalHearts.APRIL": "April Fools",
+  "healpgood.main.enum.seasonalHearts.HALLOWEEN": "Halloween",
+  "healpgood.main.config.seasonalHearts.desc": "This selection will determine the appearance of §dHeart pickups§r.\n\n§2Dynamic§r makes Hearts change based on Seasons.\n\n§2Default§r keeps hearts at their regular look.\n\nAll other options enable seasonal textures year-round",
+
   "healpgood.main.config.category": "Healing Pretty Good",
   "healpgood.hearts.config.category": "Hearts",
   "healpgood.health_upgrades.config.category": "Health Upgrades",
 
-  "healpgood.main.config.seasonalHearts": "Seasonal Content",
   "healpgood.main.config.dragonDrops": "Dragon Drops Hearts",
   "healpgood.main.config.heartLanternX": "Heart Lantern Range X",
   "healpgood.main.config.heartLanternY": "Heart Lantern Range Y",
@@ -57,7 +66,6 @@
   "healpgood.health_upgrades.config.heartCrystalMax": "Max Crystal Hearts",
   "healpgood.health_upgrades.config.heartContainerMax": "Max Heart Containers",
 
-  "healpgood.main.config.seasonalHearts.desc": "If true, §dHearts§r will have special cosmetics on some Holidays",
   "healpgood.main.config.dragonDrops.desc": "If true, the §5Ender Dragon§r will drop Hearts similar to how it drops §2XP",
   "healpgood.main.config.heartLanternX.desc": "The Max §2Horizontal Distance§r you can be from a §dHeart Lantern§r to receive Regeneration",
   "healpgood.main.config.heartLanternY.desc": "The Max §2Vertical Distance§r you can be from a §dHeart Lantern§r to receive Regeneration",

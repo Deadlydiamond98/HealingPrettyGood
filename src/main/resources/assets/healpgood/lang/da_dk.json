@@ -1,0 +1,24 @@
+{
+  "item.healpgood.heart_bottle": "Healingflaske",
+  "block.healpgood.heart_crystal_block": "Hjerte Krystal Blok",
+  "item.healpgood.heart_crystal_shard": "Hjerte Krystal Skår",
+  "item.healpgood.crystal_heart": "Hjerte Krystal",
+  "item.healpgood.heart_container": "Hjertebeholder",
+  "item.healpgood.empty_heart_container": "Tom Hjertebeholder",
+  "block.healpgood.heart_lantern": "Hjerte Lanterne",
+  "block.healpgood.polished_heart_crystal": "Poleret Hjerte Krystal",
+  "block.healpgood.polished_heart_crystal_slab": "Poleret Hjerte Krystalflise",
+  "block.healpgood.polished_heart_crystal_stairs": "Poleret Hjerte Krystal Trappe",
+  "item.healpgood.crystal_apple": "Krystal Æble",
+
+  "advancements.healpgood.crystal_heart_use": "Hjerte-Side Oplåst",
+  "advancements.healpgood.crystal_heart_use.desc": "Opgrader dit liv med en hjerte krystal, dog midlertidigt",
+  "advancements.healpgood.heart_crystal_break": "Hjerteknuser",
+  "advancements.healpgood.heart_crystal_break.desc": "Knus nogle hjerte krystaller",
+  "advancements.healpgood.empty_heart_container_use": "Hjertedonor",
+  "advancements.healpgood.empty_heart_container_use.desc": "Forvandl et af dine hjertne til en hjertebeholder",
+  "advancements.healpgood.max_health": "Maksimeret",
+  "advancements.healpgood.max_health.desc": "Brug så mange hjerter der er muligt",
+  "advancements.healpgood.heart_container_use": "Phanes velsignelse",
+  "advancements.healpgood.heart_container_use.desc": "Opgrader permanent dit liv med en hjertebeholder"
+}

@@ -1,0 +1,13 @@
+{
+  "item.healpgood.heart_bottle": "Пузырёк здоровья",
+  "block.healpgood.heart_crystal_block": "Блок кристального сердца",
+  "item.healpgood.heart_crystal_shard": "Осколок кристального сердца",
+  "item.healpgood.crystal_heart": "Кристальное сердце",
+  "item.healpgood.heart_container": "Запечатанное сердце",
+  "item.healpgood.empty_heart_container": "Вместилище сердец",
+  "item.healpgood.crystal_apple": "Кристальное яблоко",
+  "block.healpgood.heart_lantern": "Лампа в форме сердца",
+  "block.healpgood.polished_heart_crystal": "Полированное кристальное сердце",
+  "block.healpgood.polished_heart_crystal_slab": "Плита из полированного кристального сердца",
+  "block.healpgood.polished_heart_crystal_stairs": "Ступеньки из полированного кристального сердца"
+}
