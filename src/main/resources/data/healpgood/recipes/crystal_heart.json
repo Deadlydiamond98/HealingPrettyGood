@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "healpgood:heart_crystal_shard"
+    },
+    "G": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "pattern": [
+    "#G#",
+    "###",
+    " # "
+  ],
+  "result": {
+    "item": "healpgood:crystal_heart"
+  },
+  "show_notification": true
+}

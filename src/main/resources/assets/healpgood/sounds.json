@@ -8,5 +8,20 @@
     "sounds": [
       "healpgood:heart/pickup"
     ]
+  },
+  "item.crystal_heart.consume": {
+    "sounds": [
+      "healpgood:item/crystal_heart_used"
+    ]
+  },
+  "item.heart_container.consume": {
+    "sounds": [
+      "healpgood:item/heart_container_used"
+    ]
+  },
+  "item.empty_heart_container.consume": {
+    "sounds": [
+      "healpgood:item/empty_heart_container_used"
+    ]
   }
 }

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "healpgood:heart_crystal_sliver"
+    },
+    {
+      "item": "healpgood:heart_crystal_sliver"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "healpgood:heart_cookie"
+  }
+}

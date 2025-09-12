@@ -1,14 +1,16 @@
 {
-  "healpgood.main.config.category": "Healing Pretty Good",
   "itemgroup.healpgood": "Healing Pretty Good",
 
   "item.healpgood.music_disc_heartstep": "Music Disc",
   "item.healpgood.music_disc_heartstep.desc": "Sossalmon - Heartstep",
+  "item.healpgood.heart_crystal_sliver": "Heart Crystal Sliver",
   "item.healpgood.heart_crystal_shard": "Heart Crystal Shard",
   "item.healpgood.crystal_heart": "Crystal Heart",
   "item.healpgood.heart_container": "Heart Container",
   "item.healpgood.empty_heart_container": "Empty Heart Container",
   "item.healpgood.heart_bottle": "Bottle O' Healing",
+  "item.healpgood.heart_cookie": "Heart Cookie",
+  "item.healpgood.crystal_apple": "Crystal Apple",
 
   "block.healpgood.heart_crystal_block": "Heart Crystal Block",
   "block.healpgood.polished_heart_crystal": "Polished Heart Crystal",
@@ -16,5 +18,57 @@
   "block.healpgood.polished_heart_crystal_stairs": "Polished Heart Crystal Stairs",
   "block.healpgood.heart_crystal_bricks": "Heart Crystal Bricks",
   "block.healpgood.heart_crystal_brick_slab": "Heart Crystal Brick Slab",
-  "block.healpgood.heart_crystal_brick_stairs": "Heart Crystal Brick Stairs"
+  "block.healpgood.heart_crystal_brick_stairs": "Heart Crystal Brick Stairs",
+  "block.healpgood.heart_lantern": "Heart Lantern",
+
+  "advancements.healpgood.heart_crystal_break": "Heart Breaker",
+  "advancements.healpgood.crystal_heart_use": "Heart-Side Unlocked",
+  "advancements.healpgood.heart_container_use": "Phanes Blessing",
+  "advancements.healpgood.empty_heart_container_use": "Heart Donor",
+  "advancements.healpgood.max_health": "Maxed Out",
+
+  "advancements.healpgood.heart_crystal_break.desc": "Smash some Heart Crystal",
+  "advancements.healpgood.crystal_heart_use.desc": "Upgrade your Health with a Crystal Heart, albeit temporarily",
+  "advancements.healpgood.heart_container_use.desc": "Upgrade your Health with a Heart Container, permanently",
+  "advancements.healpgood.empty_heart_container_use.desc": "Turn one of your Hearts into a heart container",
+  "advancements.healpgood.max_health.desc": "Consume the Maximum Possible amount of Heart Crystals and Heart Containers",
+
+  "commands.healpgood.healthSet.success.single": "Successfully Modified the Health of %s",
+  "commands.healpgood.healthSet.success.multiple": "Successfully Modified the Health of %s players",
+
+  "death.attack.empty_heart_container": "%s Didn't have enough hearts to spare",
+
+  "healpgood.main.config.category": "Healing Pretty Good",
+  "healpgood.hearts.config.category": "Hearts",
+  "healpgood.health_upgrades.config.category": "Health Upgrades",
+
+  "healpgood.main.config.seasonalHearts": "Seasonal Content",
+  "healpgood.main.config.dragonDrops": "Dragon Drops Hearts",
+  "healpgood.main.config.heartLanternX": "Heart Lantern Range X",
+  "healpgood.main.config.heartLanternY": "Heart Lantern Range Y",
+
+  "healpgood.hearts.config.regularDropChance": "Heart Drop Chance",
+  "healpgood.hearts.config.passiveAugment": "Passive Mob Modifier",
+  "healpgood.hearts.config.healthAugment": "Mob Health Modifier",
+  "healpgood.hearts.config.healthToHearts": "Health Per Heart",
+  "healpgood.hearts.config.chanceDecay": "Subsequent Hearts Modifier",
+
+  "healpgood.health_upgrades.config.healOnRespawn": "Heal on Respawn",
+  "healpgood.health_upgrades.config.heartCrystalMax": "Max Crystal Hearts",
+  "healpgood.health_upgrades.config.heartContainerMax": "Max Heart Containers",
+
+  "healpgood.main.config.seasonalHearts.desc": "If true, §dHearts§r will have special cosmetics on some Holidays",
+  "healpgood.main.config.dragonDrops.desc": "If true, the §5Ender Dragon§r will drop Hearts similar to how it drops §2XP",
+  "healpgood.main.config.heartLanternX.desc": "The Max §2Horizontal Distance§r you can be from a §dHeart Lantern§r to receive Regeneration",
+  "healpgood.main.config.heartLanternY.desc": "The Max §2Vertical Distance§r you can be from a §dHeart Lantern§r to receive Regeneration",
+
+  "healpgood.hearts.config.regularDropChance.desc": "The §2Default Chance§r for a Mob to drop Hearts on Death",
+  "healpgood.hearts.config.passiveAugment.desc": "This Amount is §cSubtracted§r from the §2Default Drop Chance§r if a Mob is Passive",
+  "healpgood.hearts.config.healthAugment.desc": "The Amount here will be multiplied by a mobs §dTotal Health§r, and then added to the §2Default Drop Chance§r",
+  "healpgood.hearts.config.healthToHearts.desc": "This will be used to determine the §dAmount of Health§r required to drop §2Extra Hearts.§r\n\n§dHealth§r §a/ Amount§r = §bHearts\n\n\n§cSetting this to 0 prevents extra hearts from dropping",
+  "healpgood.hearts.config.chanceDecay.desc": "Everytime a mob drops an §2Extra Heart§r, the chance for them to drop another will be §cdecreased§r by this amount!",
+
+  "healpgood.health_upgrades.config.healOnRespawn.desc": "If §4False§r, your §dPermanent Hearts§r will remain, but won't be replenished when you respawn",
+  "healpgood.health_upgrades.config.heartCrystalMax.desc": "The Maximum amount of §2Heart Crystals§r that a player can consume\n\n§b(Max Temp Hearts)",
+  "healpgood.health_upgrades.config.heartContainerMax.desc": "The Maximum amount of §2Heart Containers§r that a player can consume\n\n§b(Max Perm Hearts)"
 }

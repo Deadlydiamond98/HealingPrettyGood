@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "healpgood:heart_crystal_big",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1984206998,
+    "spacing": 7,
+    "separation": 3,
+    "type": "minecraft:random_spread"
+  }
+}

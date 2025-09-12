@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 
 public class HealPGoodEntities {
 
-    public static final EntityType<HeartPickupEntity> HEART_PICKUP_ENTITY = register("heart", create(HeartPickupEntity.class, 0.25f, 0.25f));
+    public static final EntityType<HeartPickupEntity> HEART_PICKUP_ENTITY = register("heart", create(HeartPickupEntity.class, 0.5f, 0.5f));
     public static final EntityType<HeartBottleEntity> HEART_BOTTLE_ENTITY = register("heart_bottle", create(HeartBottleEntity.class, 0.25f, 0.25f));
 
     public static <T extends Entity> EntityType<T> register(String name, FabricEntityTypeBuilder<T> builder) {

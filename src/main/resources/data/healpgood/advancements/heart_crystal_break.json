@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "healpgood:heart_crystal_block"
+    },
+    "title": {
+      "translate": "advancements.healpgood.heart_crystal_break"
+    },
+    "description": {
+      "translate": "advancements.healpgood.heart_crystal_break.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "healpgood:heart_crystal_break"
+    }
+  }
+}

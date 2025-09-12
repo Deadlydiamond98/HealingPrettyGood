@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "healpgood:crystal_heart"
+    },
+    "title": {
+      "translate": "advancements.healpgood.crystal_heart_use"
+    },
+    "description": {
+      "translate": "advancements.healpgood.crystal_heart_use.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "healpgood:heart_crystal_break",
+  "criteria": {
+    "requirement": {
+      "trigger": "healpgood:crystal_heart_use"
+    }
+  }
+}

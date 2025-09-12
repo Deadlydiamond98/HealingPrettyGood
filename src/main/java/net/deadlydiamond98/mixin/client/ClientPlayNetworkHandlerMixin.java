@@ -1,4 +1,4 @@
-package net.deadlydiamond98.mixin;
+package net.deadlydiamond98.mixin.client;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import net.deadlydiamond98.entities.HeartPickupEntity;
@@ -21,6 +21,7 @@ public class ClientPlayNetworkHandlerMixin {
     private void healpgood$onItemPickupAnimation(Args args, @Local() Entity entity) {
         if (entity instanceof HeartPickupEntity) {
             args.set(3, HealPGoodSounds.HEART_PICKUP);
+            args.set(5, 0.35f);
             args.set(6, this.random.nextFloat() * 0.6f + 0.75f);
         }
     }

@@ -8,6 +8,9 @@ import net.minecraft.util.Identifier;
 
 public class HealPGoodSounds {
     public static final SoundEvent HEART_PICKUP = registerSound("entity.heart.pickup");
+    public static final SoundEvent HEART_CRYSTAL_USED = registerSound("item.crystal_heart.consume");
+    public static final SoundEvent HEART_CONTAINER_USED = registerSound("item.heart_container.consume");
+    public static final SoundEvent EMPTY_HEART_CONTAINER_USED = registerSound("item.empty_heart_container.consume");
     public static final SoundEvent MUSIC_DISC_HEARTSTEP = registerSound("music_disc.heartstep");
 
     private static SoundEvent registerSound(String name) {

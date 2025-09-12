@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "healpgood:empty_heart_container"
+    },
+    {
+      "item": "healpgood:crystal_heart"
+    },
+    {
+      "item": "koalalib:ender_soul"
+    },
+    {
+      "item": "healpgood:heart_bottle"
+    }
+  ],
+  "result": {
+    "item": "healpgood:heart_container"
+  }
+}

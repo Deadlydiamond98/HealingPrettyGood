@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "healpgood:heart_container"
+    },
+    "title": {
+      "translate": "advancements.healpgood.max_health"
+    },
+    "description": {
+      "translate": "advancements.healpgood.max_health.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "healpgood:crystal_heart_use",
+  "criteria": {
+    "requirement": {
+      "trigger": "healpgood:max_health"
+    }
+  }
+}

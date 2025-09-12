@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "healpgood:heart_crystal_block",
+    "healpgood:polished_heart_crystal",
+    "healpgood:polished_heart_crystal_slab",
+    "healpgood:polished_heart_crystal_stairs",
+    "healpgood:heart_crystal_bricks",
+    "healpgood:heart_crystal_brick_slab",
+    "healpgood:heart_crystal_brick_stairs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "healpgood:heart_crystal_big",
+  "size": 1,
+  "terrain_adaptation": "beard_box",
+  "max_distance_from_center": 1,
+  "biomes": [
+    "minecraft:lush_caves",
+    "mushroom_fields"
+  ],
+  "step": "underground_structures",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "absolute": 50
+    },
+    "min_inclusive": {
+      "absolute": -50
+    }
+  },
+  "use_expansion_hack": false,
+  "spawn_overrides": {}
+}

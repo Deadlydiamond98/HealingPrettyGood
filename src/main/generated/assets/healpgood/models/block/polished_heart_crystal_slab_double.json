@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "healpgood:block/polished_heart_crystal",
+    "side": "healpgood:block/polished_heart_crystal_slab"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "S": {
+      "item": "healpgood:heart_crystal_sliver"
+    },
+    "#": {
+      "item": "healpgood:heart_crystal_shard"
+    }
+  },
+  "pattern": [
+    "S#S",
+    "#A#",
+    "S#S"
+  ],
+  "result": {
+    "item": "healpgood:crystal_apple"
+  },
+  "show_notification": true
+}

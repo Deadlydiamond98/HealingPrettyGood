@@ -1,13 +1,15 @@
 package net.deadlydiamond98;
 
 import net.deadlydiamond98.blocks.HealPGoodBlocks;
-import net.deadlydiamond98.misc.HealPGoodConfig;
+import net.deadlydiamond98.blocks.entities.HealPGoodBlockEntities;
+import net.deadlydiamond98.events.HealPGoodAfterDeath;
+import net.deadlydiamond98.events.HealPGoodAfterRespawn;
+import net.deadlydiamond98.koalalib.updater.KoalaUpdateChecker;
+import net.deadlydiamond98.misc.*;
 import net.deadlydiamond98.entities.HealPGoodEntities;
 import net.deadlydiamond98.items.HealPGoodItems;
 import net.deadlydiamond98.koalalib.ToggleableContent;
 import net.deadlydiamond98.koalalib.config.KoalaConfigCreator;
-import net.deadlydiamond98.misc.HealPGoodTab;
-import net.deadlydiamond98.misc.HealPGoodSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,30 +22,25 @@ public class HealingPrettyGood implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		KoalaConfigCreator.addModConfig(MOD_ID, HealPGoodConfig.Main.class);
+		KoalaConfigCreator.addModConfigCategory(MOD_ID, "hearts", HealPGoodConfig.Hearts.class);
+		KoalaConfigCreator.addModConfigCategory(MOD_ID, "health_upgrades", HealPGoodConfig.HealthUpgrades.class);
+		KoalaUpdateChecker.addModUpdateChecker(MOD_ID);
 		ToggleableContent.enableEnderSouls();
 
 		HealPGoodItems.register();
 		HealPGoodBlocks.register();
+		HealPGoodBlockEntities.register();
 		HealPGoodSounds.register();
 		HealPGoodTab.register();
 		HealPGoodEntities.register();
+		HealPGoodAdvancements.register();
+		HealPGoodTrades.register();
+		HealPGoodBrewingRecipes.register();
+
+		HealPGoodAfterDeath.register();
+		HealPGoodAfterRespawn.register();
+		HealPGoodCommands.register();
 
 		LOGGER.info("Healing Pretty Good is fully initialized");
-
-//		testHeartShape(3);
 	}
-
-//	private void testHeartShape(int size) {
-//		for (int y = -size; y <= 2 * size; y++) {
-//			for (int x = -2 * size; x <= 2 * size; x++)
-//				if ((y <= 0 &&
-//						((int) Math.sqrt((x+size)*(x+size) + y*y) <= size
-//								|| (int) Math.sqrt((x-size)*(x-size) + y*y) <= size))
-//						|| (y > 0 && Math.abs(x) <= 2 * size - y))
-//					System.out.print("♥ ");
-//				else
-//					System.out.print("♡ ");
-//			System.out.println();
-//		}
-//	}
 }

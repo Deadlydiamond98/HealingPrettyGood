@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "healpgood:heart_crystal_shard"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "GNG",
+    "#P#",
+    "GNG"
+  ],
+  "result": {
+    "item": "healpgood:empty_heart_container"
+  },
+  "show_notification": true
+}

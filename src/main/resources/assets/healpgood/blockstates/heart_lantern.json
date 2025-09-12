@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "hanging=false,facing=north": {
+      "model": "healpgood:block/heart_lantern",
+      "y": 90
+    },
+    "hanging=false,facing=south": {
+      "model": "healpgood:block/heart_lantern",
+      "y": 270
+    },
+    "hanging=false,facing=west": {
+      "model": "healpgood:block/heart_lantern"
+    },
+    "hanging=false,facing=east": {
+      "model": "healpgood:block/heart_lantern",
+      "y": 180
+    },
+    "hanging=true,facing=north": {
+      "model": "healpgood:block/heart_lantern_hanging_rot",
+      "y": 90
+    },
+    "hanging=true,facing=south": {
+      "model": "healpgood:block/heart_lantern_hanging_rot",
+      "y": 270
+    },
+    "hanging=true,facing=west": {
+      "model": "healpgood:block/heart_lantern_hanging"
+    },
+    "hanging=true,facing=east": {
+      "model": "healpgood:block/heart_lantern_hanging",
+      "y": 180
+    }
+  }
+}

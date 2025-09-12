@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "healpgood:empty_heart_container"
+    },
+    "title": {
+      "translate": "advancements.healpgood.empty_heart_container_use"
+    },
+    "description": {
+      "translate": "advancements.healpgood.empty_heart_container_use.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "healpgood:crystal_heart_use",
+  "criteria": {
+    "requirement": {
+      "trigger": "healpgood:empty_heart_container_use"
+    }
+  }
+}

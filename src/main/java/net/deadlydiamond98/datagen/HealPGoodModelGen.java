@@ -17,7 +17,7 @@ public class HealPGoodModelGen extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(HealPGoodBlocks.HEART_CRYSTAL_BLOCK);
-        HealPGoodBlocks.POLISHED_HEART_CRYSTAL.generateModels(blockStateModelGenerator);
+        HealPGoodBlocks.POLISHED_HEART_CRYSTAL.generateModels(blockStateModelGenerator, true);
         HealPGoodBlocks.HEART_CRYSTAL_BRICKS.generateModels(blockStateModelGenerator);
     }
 
@@ -26,10 +26,14 @@ public class HealPGoodModelGen extends FabricModelProvider {
         ItemModelDatagenUtil.registerGenerated(itemModelGenerator,
                 HealPGoodItems.MUSIC_DISC_HEARTSTEP,
                 HealPGoodItems.HEART_CRYSTAL_SHARD,
+                HealPGoodItems.HEART_CRYSTAL_SLIVER,
                 HealPGoodItems.CRYSTAL_HEART,
                 HealPGoodItems.HEART_CONTAINER,
                 HealPGoodItems.EMPTY_HEART_CONTAINER,
-                HealPGoodItems.HEART_BOTTLE
+                HealPGoodItems.HEART_BOTTLE,
+                HealPGoodItems.HEART_COOKIE,
+                HealPGoodItems.CRYSTAL_APPLE,
+                HealPGoodBlocks.HEART_LANTERN.asItem()
         );
     }
 }

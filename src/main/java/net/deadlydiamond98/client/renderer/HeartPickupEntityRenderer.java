@@ -54,13 +54,18 @@ public class HeartPickupEntityRenderer extends EntityRenderer<HeartPickupEntity>
         Camera camera = MinecraftClient.getInstance().gameRenderer.getCamera();
         matrixStack.multiply(RotationAxis.NEGATIVE_Y.rotationDegrees(camera.getYaw()));
 
+        matrixStack.translate(-0.125 - 0.0078125, 0.1, 0);
+
+        int maxAngle = 60;
+        matrixStack.multiply(RotationAxis.POSITIVE_X.rotationDegrees(MathHelper.clamp(camera.getPitch(), -maxAngle, maxAngle)));
+
+        double bob = (Math.sin(entity.age / 10.0) * 0.1 + 0.1) / 8;
+        matrixStack.translate(0, bob - 0.1, 0);
+
         VertexConsumer vertexConsumer = vertexConsumerProvider.getBuffer(RenderLayer.getItemEntityTranslucentCull(getTexture(entity)));
         MatrixStack.Entry entry = matrixStack.peek();
         Matrix4f matrix4f = entry.getPositionMatrix();
         Matrix3f matrix3f = entry.getNormalMatrix();
-
-        double bob = (Math.sin(entity.age / 10.0) * 0.1 + 0.1) / 4;
-        matrixStack.translate(-0.125 - 0.0078125, bob, 0);
 
         matrixStack.scale(0.25f, 0.25f, 1);
 
@@ -79,8 +84,6 @@ public class HeartPickupEntityRenderer extends EntityRenderer<HeartPickupEntity>
         float numTextureHeight = 1 / 9.0f;
         float numMinV = numTextureHeight * (entity.getHealAmount() - 1);
         float numMaxV = numMinV + numTextureHeight;
-
-        HealingPrettyGood.LOGGER.info("Heart Amount is: {}", entity.getHealAmount());
 
         VertexConsumer vertexConsumerNumber = vertexConsumerProvider.getBuffer(RenderLayer.getItemEntityTranslucentCull(NUMBER));
         renderFace(vertexConsumerNumber, matrix4f, matrix3f, 255, numMinV, numMaxV, -0.0002f, i);

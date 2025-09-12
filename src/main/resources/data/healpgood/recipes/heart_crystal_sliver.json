@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "healpgood:heart_crystal_shard"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "healpgood:heart_crystal_sliver"
+  }
+}

@@ -23,6 +23,7 @@ public class HeartPickupEntity extends Entity {
     private PlayerEntity target;
     private int health = 5;
     private int heartage;
+    private int dragonTimer;
 
     public HeartPickupEntity(World world, double x, double y, double z) {
         this(HealPGoodEntities.HEART_PICKUP_ENTITY, world);
@@ -41,7 +42,9 @@ public class HeartPickupEntity extends Entity {
     }
 
     public int getHealAmount() {
-        return Math.min(this.dataTracker.get(HEAL_AMOUNT), 9);
+        // There was a bug that caused command summoned Hearts to have a health value of 0, no idea why this happened,
+        // but Math.max fixes this (probably something I missed that's obvious, but this works good enough)
+        return Math.max(1, Math.min(this.dataTracker.get(HEAL_AMOUNT), 9));
     }
 
     @Override
@@ -63,7 +66,7 @@ public class HeartPickupEntity extends Entity {
         if (!this.getWorld().isSpaceEmpty(this.getBoundingBox())) {
             this.pushOutOfBlocks(this.getX(), (this.getBoundingBox().minY + this.getBoundingBox().maxY) / 2.0, this.getZ());
         }
-        if (this.age % 20 == 5) {
+        if (this.age % 20 == 5 && this.dragonTimer-- <= 0) {
             this.expensiveUpdate();
         }
         if (this.target != null && (this.target.isSpectator() || this.target.isDead())) {
@@ -101,9 +104,15 @@ public class HeartPickupEntity extends Entity {
     }
 
     public static void spawn(ServerWorld world, Vec3d pos, int amount) {
+        spawn(world, pos, amount, false);
+    }
+
+    public static void spawn(ServerWorld world, Vec3d pos, int amount, boolean fromDragon) {
         while (amount > 0) {
             amount -= 1;
-            world.spawnEntity(new HeartPickupEntity(world, pos.getX(), pos.getY(), pos.getZ()));
+            HeartPickupEntity heart = new HeartPickupEntity(world, pos.getX(), pos.getY(), pos.getZ());
+            heart.dragonTimer = fromDragon ? 100 : 0;
+            world.spawnEntity(heart);
         }
     }
 

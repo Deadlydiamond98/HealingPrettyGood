@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "healpgood:polished_heart_crystal"
+  },
+  "result": "healpgood:polished_heart_crystal_slab"
+}

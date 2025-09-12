@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "healpgood:heart_crystal_shard"
+    },
+    "H": {
+      "item": "healpgood:crystal_heart"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "koalalib:ender_soul"
+    },
+    "B": {
+      "item": "healpgood:heart_bottle"
+    }
+  },
+  "pattern": [
+    "GHG",
+    "#S#",
+    "GBG"
+  ],
+  "result": {
+    "item": "healpgood:heart_container"
+  },
+  "show_notification": true
+}

@@ -4,7 +4,7 @@
       "model": "healpgood:block/polished_heart_crystal_slab"
     },
     "type=double": {
-      "model": "healpgood:block/polished_heart_crystal"
+      "model": "healpgood:block/polished_heart_crystal_slab_double"
     },
     "type=top": {
       "model": "healpgood:block/polished_heart_crystal_slab_top"
