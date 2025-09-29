@@ -34,11 +34,6 @@ public class HealPGoodAfterDeath {
             int healthPerHeart = HealPGoodConfig.Hearts.healthToHearts;
             int amount = healthPerHeart > 0 ? (int) (entity.getMaxHealth() / healthPerHeart) : 1;
 
-            HealingPrettyGood.LOGGER.info(
-                    "The Mob had a {}% chance to drop Hearts!\nBaseChance: {}\nPassiveAugment: {}\nHealthAugment: {}\nAmount: {}",
-                    dropChance * 100, HealPGoodConfig.Hearts.regularDropChance, passiveAugment, healthAugment, amount
-            );
-
             for (int i = 0; i < amount; i++) {
 
                 if (random.nextFloat() <= dropChance) {

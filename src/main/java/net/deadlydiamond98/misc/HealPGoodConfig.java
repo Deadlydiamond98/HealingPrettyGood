@@ -13,12 +13,12 @@ public class HealPGoodConfig {
     }
     public static class Hearts {
         @CFGProperties(min = 0, max = 1)
-        public static double regularDropChance = 0.15f;
-        public static double passiveAugment = -0.4f;
-        public static double healthAugment = 0.01f;
+        public static double regularDropChance = 0.15;
+        public static double passiveAugment = -0.4;
+        public static double healthAugment = 0.01;
         @CFGProperties(min = 0)
         public static int healthToHearts = 15;
-        public static double chanceDecay = 0.05f;
+        public static double chanceDecay = 0.05;
     }
     public static class HealthUpgrades {
         public static boolean healOnRespawn = false;
