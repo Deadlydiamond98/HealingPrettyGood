@@ -3,7 +3,7 @@ package net.deadlydiamond98.mixin.client;
 import com.llamalad7.mixinextras.sugar.Local;
 import net.deadlydiamond98.client.renderer.HeartPickupEntityRenderer;
 import net.deadlydiamond98.entities.HeartPickupEntity;
-import net.deadlydiamond98.koalalib.common.misc.ModSharedSounds;
+import net.deadlydiamond98.koalalib.init.KoalaLibSounds;
 import net.deadlydiamond98.misc.HealPGoodConfig;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
 import net.minecraft.entity.Entity;
@@ -23,7 +23,7 @@ public class ClientPlayNetworkHandlerMixin {
     private void healpgood$onItemPickupAnimation(Args args, @Local() Entity entity) {
         if (entity instanceof HeartPickupEntity) {
             if (HealPGoodConfig.Main.seasonalHearts.canChange() && HeartPickupEntityRenderer.isApril) {
-                args.set(3, ModSharedSounds.BAGEL);
+                args.set(3, KoalaLibSounds.BAGEL);
             } else {
                 args.set(3, HealPGoodConfig.Main.seasonalHearts.soundEvent);
             }

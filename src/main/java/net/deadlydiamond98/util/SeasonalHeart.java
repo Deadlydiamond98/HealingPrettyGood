@@ -1,16 +1,15 @@
 package net.deadlydiamond98.util;
 
-import net.deadlydiamond98.koalalib.common.misc.ModSharedSounds;
+import net.deadlydiamond98.koalalib.init.KoalaLibSounds;
 import net.deadlydiamond98.misc.HealPGoodSounds;
 import net.minecraft.sound.SoundEvent;
-import net.minecraft.sound.SoundEvents;
 
 public enum SeasonalHeart {
     VANILLA(2, "regular"),
     NOSEASON(2, "regular"),
     CHRISTMAS(2, "christmas"),
     PRIDE(20, "pride"),
-    APRIL(2, ModSharedSounds.BAGEL, "april");
+    APRIL(2, KoalaLibSounds.BAGEL, "april");
 
     public final int frames;
     public final SoundEvent soundEvent;

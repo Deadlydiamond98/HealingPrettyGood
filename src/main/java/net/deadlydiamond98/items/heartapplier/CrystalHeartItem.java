@@ -1,6 +1,6 @@
 package net.deadlydiamond98.items.heartapplier;
 
-import net.deadlydiamond98.koalalib.common.misc.CustomAdvancement;
+import net.deadlydiamond98.koalalib.common.advancement.CustomAdvancement;
 import net.deadlydiamond98.misc.HealPGoodAdvancements;
 import net.deadlydiamond98.misc.HealPGoodSounds;
 import net.deadlydiamond98.util.ExtraHealthHelper;

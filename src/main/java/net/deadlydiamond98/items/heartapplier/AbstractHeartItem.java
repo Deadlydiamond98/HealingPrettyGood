@@ -1,7 +1,7 @@
 package net.deadlydiamond98.items.heartapplier;
 
-import net.deadlydiamond98.koalalib.common.misc.CustomAdvancement;
-import net.deadlydiamond98.koalalib.common.misc.ModSharedSounds;
+import net.deadlydiamond98.koalalib.common.advancement.CustomAdvancement;
+import net.deadlydiamond98.koalalib.init.KoalaLibSounds;
 import net.deadlydiamond98.misc.HealPGoodDamageTypes;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -32,13 +32,13 @@ public abstract class AbstractHeartItem extends Item {
         }
         applyCooldown(user);
         stack.decrement(1);
-        getAdvancement().trigger((ServerPlayerEntity) user);
+        getAdvancement().trigger(user);
         user.playSound(getSound(), SoundCategory.PLAYERS, 1,1);
         return TypedActionResult.consume(stack);
     }
 
     protected TypedActionResult<ItemStack> fail(PlayerEntity user, ItemStack stack) {
-        user.playSound(ModSharedSounds.CONSOLE_CRAFT_FAIL, SoundCategory.PLAYERS, 0.5f, 1);
+        user.playSound(KoalaLibSounds.CONSOLE_CRAFT_FAIL, SoundCategory.PLAYERS, 0.5f, 1);
         return TypedActionResult.fail(stack);
     }
 

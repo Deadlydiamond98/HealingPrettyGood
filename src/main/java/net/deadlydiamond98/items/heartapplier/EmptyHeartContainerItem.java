@@ -1,12 +1,11 @@
 package net.deadlydiamond98.items.heartapplier;
 
 import net.deadlydiamond98.items.HealPGoodItems;
-import net.deadlydiamond98.koalalib.common.misc.CustomAdvancement;
+import net.deadlydiamond98.koalalib.common.advancement.CustomAdvancement;
 import net.deadlydiamond98.misc.HealPGoodAdvancements;
 import net.deadlydiamond98.misc.HealPGoodSounds;
 import net.deadlydiamond98.util.ExtraHealthHelper;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Hand;

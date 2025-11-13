@@ -4,7 +4,7 @@ import net.deadlydiamond98.HealingPrettyGood;
 import net.deadlydiamond98.blocks.HealPGoodBlocks;
 import net.deadlydiamond98.items.HealPGoodItems;
 import net.deadlydiamond98.koalalib.KoalaLib;
-import net.deadlydiamond98.koalalib.common.items.ModSharedItems;
+import net.deadlydiamond98.koalalib.init.KoalaLibItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
@@ -35,7 +35,7 @@ public class HealPGoodTab {
                 entry.add(HealPGoodItems.HEART_COOKIE);
                 entry.add(HealPGoodItems.CRYSTAL_APPLE);
                 entry.add(HealPGoodItems.MUSIC_DISC_HEARTSTEP);
-                entry.add(ModSharedItems.ENDER_SOUL);
+                entry.add(KoalaLibItems.ENDER_SOUL);
 
                 // Blocks
 

@@ -5,7 +5,6 @@ import net.deadlydiamond98.blocks.HealPGoodBlocks;
 import net.deadlydiamond98.items.heartapplier.CrystalHeartItem;
 import net.deadlydiamond98.items.heartapplier.EmptyHeartContainerItem;
 import net.deadlydiamond98.items.heartapplier.HeartContainerItem;
-import net.deadlydiamond98.koalalib.common.items.ModSharedItems;
 import net.deadlydiamond98.misc.HealPGoodSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.effect.StatusEffectInstance;

@@ -1,7 +1,7 @@
 package net.deadlydiamond98.misc;
 
 import net.deadlydiamond98.HealingPrettyGood;
-import net.deadlydiamond98.koalalib.common.misc.CustomAdvancement;
+import net.deadlydiamond98.koalalib.common.advancement.CustomAdvancement;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.util.Identifier;
 
