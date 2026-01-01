@@ -1,10 +1,11 @@
 package net.deadlydiamond98.items.heartapplier;
 
 import net.deadlydiamond98.koalalib.common.advancement.CustomAdvancement;
-import net.deadlydiamond98.koalalib.common.items.interaction.IFloating;
+import net.deadlydiamond98.koalalib.common.items.interaction.IAdvancedItemProperties;
 import net.deadlydiamond98.misc.HealPGoodAdvancements;
 import net.deadlydiamond98.misc.HealPGoodSounds;
 import net.deadlydiamond98.util.ExtraHealthHelper;
+import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundEvent;
@@ -12,7 +13,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class HeartContainerItem extends AbstractHeartItem implements IFloating {
+public class HeartContainerItem extends AbstractHeartItem implements IAdvancedItemProperties {
 
     public HeartContainerItem(Settings settings) {
         super(settings);
@@ -29,6 +30,11 @@ public class HeartContainerItem extends AbstractHeartItem implements IFloating {
         }
 
         return super.use(world, user, hand);
+    }
+
+    @Override
+    public boolean hasNoGravity(ItemEntity entity, ItemStack stack) {
+        return true;
     }
 
     @Override
